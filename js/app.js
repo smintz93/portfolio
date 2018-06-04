@@ -27,7 +27,17 @@ $("document").ready(() => {
 			currentImg.removeClass("active").css("z-index", -10);
 
 			nextImg.addClass("active").css("z-index", 10);
+		} 
+
+		if(nextImg.length === 0) {
+			
+			nextImg.addClass("active").css("z-index", 10);
+
+			console.log("start over")
 		}
+
+				
+	
 	});
 
 		$(".prev").on("click", (e) => {
