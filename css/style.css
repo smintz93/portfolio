@@ -353,6 +353,7 @@ footer {
 		display: none;
 		flex-direction: column;
 	}
+
 	.text-box {
 		display: flex;
 		flex-direction: column;
@@ -362,6 +363,46 @@ footer {
 		text-align: left;
 		margin-top: 2vh;
 		margin-left: 5vw;	
+	}
+
+
+	
+
+	.description-box {
+		width: 40vw;
+		height: 25vh;
+		border: 2px solid #990000;
+	}
+
+	.slider-inner img{
+		width: 40vw;
+		height: 25vh;
+	}
+
+
+
+	.slider-inner{
+		margin: 0;
+		width: 40vw;
+		height: 26vh;
+	}
+
+	.description {
+		font-size: 10px;
+	}
+
+	p {
+		font-size: 10px;
+	}
+
+	.prev,.next{
+	float: left;
+	margin-top: 130px;
+	cursor: pointer;
+	height: 2vh;
+	z-index: 55;
+/*	width: 3vw;*/
+
 	}
 
 
@@ -381,7 +422,6 @@ footer {
 	footer {
 		width: 100vw;
 	}
-
 
 
 } 
