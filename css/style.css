@@ -318,7 +318,7 @@ footer {
 
 /*Mobile */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1300px) {
 	body{
 		width: 85vw;
 	}
@@ -366,7 +366,11 @@ footer {
 	}
 
 
-	
+	#project-title{
+		text-align: center;
+		width: 100vw;
+
+	}
 
 	.description-box {
 		width: 40vw;
@@ -404,7 +408,6 @@ footer {
 /*	width: 3vw;*/
 
 	}
-
 
 	.skills {
 		width: 100vw;
