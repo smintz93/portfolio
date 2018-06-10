@@ -405,6 +405,7 @@ footer {
 	cursor: pointer;
 	height: 2vh;
 	z-index: 55;
+	display: none;
 /*	width: 3vw;*/
 
 	}
