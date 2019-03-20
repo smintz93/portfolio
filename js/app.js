@@ -34,10 +34,8 @@ $("document").ready(() => {
 			nextImg.addClass("active").css("z-index", 10);
 
 			console.log("start over")
-		}
-
-				
-	
+		}	
+			
 	});
 
 		$(".prev").on("click", (e) => {
@@ -53,7 +51,6 @@ $("document").ready(() => {
 		}
 	});
 });
-
 
 let didScroll;
 let lastScrollTop = 0;
