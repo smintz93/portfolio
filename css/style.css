@@ -136,8 +136,6 @@ nav  {
 
 
 
-
-
 #project-title {
 	text-align: center;
 	font-size: 2em;
@@ -223,9 +221,15 @@ nav  {
 	height: 80vh;
 	text-align: center;
 	background-color: #990000;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#skills-title {
+	text-align: center;
+	padding: 3px;
+	font-size: 2em;
 }
 
 
@@ -331,6 +335,7 @@ footer {
 	.title {
 		height: 90vh;
 		width: 85vw;
+		text-align: center;
 	}
 
 	.icons img {
@@ -370,7 +375,7 @@ footer {
 		margin-left: 5vw;	
 	}
 
-	#project-title{
+	#project-title {
 		text-align: center;
 		width: 100vw;
 
@@ -428,7 +433,6 @@ footer {
 	footer {
 		width: 100vw;
 	}
-
 
 } 
 
